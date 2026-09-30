@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from https://send.now/docs/api/file-list by HTTrack Website Copier/3.x [XR&CO], Sun, 27 Sep 2026 16:46:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <Title>Files List</Title>
+      <META http-equiv=Content-Type content="text-html; charset=UTF-8">
+
+        <link rel="shortcut icon" type="image/ico" href="https://send.now/favicon.ico" />
+        <link rel="stylesheet" href="../../static/css/stackoverflow-light.min.css">
+        <script src="../../static/js/highlight.min.js" type="3bb4083626a91bd53986d154-text/javascript"></script>
+        <script src="../../static/js/jquery.min.js" type="3bb4083626a91bd53986d154-text/javascript"></script>
+        <link href="../../lib/%40fortawesome/fontawesome-free/css/fa.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../static/css/docs.css">
+        <link rel="stylesheet" href="../../static/css/subdocs.css">
+  
+  </head>
+  <body class="pos-relative" data-spy="scroll" data-target="#navSection" data-offset="120">
+
+    <header class="navbar navbar-header navbar-header-fixed">
+      <a href="#" id="sidebarMenuOpen" class="burger-menu"><i data-feather="menu"></i></a>
+      <div class="navbar-brand">
+        <a href="https://send.now/upload" class="df-logo">
+          <img src="../../static/img/logo.png" alt="Send" class="logo-img"><span>SEND</span>
+        </a> 
+      </div>
+      <div id="navbarMenu" class="navbar-menu-wrapper">
+      <div class="navbar-menu-header">
+      <a href="https://send.now/upload" class="df-logo">
+          <img src="../../static/img/logo.png" alt="Send" class="logo-img"><span>SEND</span>
+        </a> 
+          <a id="mainMenuClose" href="#"><i data-feather="x"></i></a>
+        </div>
+        <ul class="nav navbar-menu">
+          <li class="nav-label pd-l-20 pd-lg-l-25 d-lg-none">Main Navigation</li>
+          <li class="nav-item"><a class="nav-link" href="https://send.now/" class="nav-link"><i data-feather="home"></i> Home</a></li>
+          <li class="nav-item active"><a href="index.html" class="nav-link"><i data-feather="code"></i> API</a></li>
+          <li class="nav-item "><a href="https://send.now/docs/" class="nav-link"><i data-feather="book"></i> Docs</a></li>
+          <li class="nav-item"><a href="https://status.send.now/" class="nav-link"><i data-feather="loader"></i> Status</a></li>
+          <li class="nav-item"><a href="https://send.now/contact" class="nav-link"><i data-feather="phone"></i> Contact</a></li>
+
+        </ul>
+      </div>
+
+    </header>
+
+    <div id="sidebarMenu" class="sidebar sidebar-fixed sidebar-components">
+      <div class="sidebar-header">
+        <a href="#" id="mainMenuOpen"><i data-feather="menu"></i></a>
+        <h5>API Documentation</h5>
+        <a href="#" id="sidebarMenuClose"><i data-feather="x"></i></a>
+      </div>
+      <div class="sidebar-body">
+        <ul class="sidebar-nav">
+          <li class="nav-label mg-b-15">REFERENCE</li>
+          <li class="nav-item"><a href="index.html" class="nav-link"><i data-feather="info"></i> API Reference </a></li>
+          <li class="nav-item show">
+            <a href="#" class="nav-link with-sub "><i data-feather="user"></i> Account</a>
+            <nav class="nav">
+              <a href="account-info.html">Account Information</a>
+              <a href="account-stats.html">Account Statistics</a>
+              <a href="dmca.html" >DMCA Reports</a>
+              <a href="trash.html"  >Trash</a>
+
+            </nav>
+          </li>
+          <li class="nav-item show">
+            <a href="#" class="nav-link with-sub"><i data-feather="upload-cloud"></i> Upload</a>
+            <nav class="nav">
+              <a href="upload-server.html">Upload Server</a>
+              <a href="upload-server-unregistered.html">Upload Server Anon</a>
+              <a href="upload-remote.html">Remote Upload</a>
+              <a href="upload-remote-unregistered.html">Remote Upload Anon</a>
+
+            </nav>
+          </li>
+          <li class="nav-item show">
+            <a href="#" class="nav-link with-sub "><i data-feather="file"></i> Files</a>
+            <nav class="nav">
+              <a href="file-list.html" class="active">List</a>
+              <a href="file-info.html">Info</a>
+              <a href="file-rename.html">Rename</a>
+              <a href="file-copy.html">Copy</a>
+              <a href="file-move.html">Move</a>
+              <a href="file-delete.html">Delete</a>
+              <a href="file-password.html">Password</a>
+              <a href="file-remove-password.html">Remove Password</a>
+              <a href="file-public.html">Public</a>
+              <a href="file-private.html">Private</a>
+              <a href="file-direct-link.html">Direct Link</a>
+            </nav>
+          </li>
+          <li class="nav-item show">
+            <a href="#" class="nav-link with-sub"><i data-feather="folder"></i> Folder</a>
+            <nav class="nav">
+              <a href="folder-list.html">List</a>
+              <a href="folder-create.html">Create </a>
+              <a href="folder-rename.html">Rename </a>
+              <a href="folder-move.html">Move </a>
+              <a href="folder-copy.html">Copy</a>
+              <a href="folder-delete.html">Delete</a>
+              <a href="folder-password.html">Password</a>
+              <a href="folder-remove-password.html">Remove Password</a>
+            </nav>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+
+<script type="3bb4083626a91bd53986d154-text/javascript">
+  function highlightCode() {
+      var pres = document.querySelectorAll("pre>code");
+      for (var i = 0; i < pres.length; i++) {
+          hljs.highlightBlock(pres[i]);
+      }
+  }
+  highlightCode();
+  </script>
+  
+
+
+  <div class="content content-components">
+    <div class="container">
+      <ol class="breadcrumb df-breadcrumbs mg-b-10">
+        <li class="breadcrumb-item"><a href="https://send.now/docs/api">API</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Files List</li>
+      </ol>
+
+
+        <h4 id="section1" class="mg-b-10 mg-t-30">GET</h4>
+        <div><div class="pd-y-10 pd-x-20 bg-ui-01 mg-b-20">https://send.now/api/file/list?key=<strong>1ltghrilhllgrx2b2</strong>&page=<strong>2</strong>&per_page=<strong>20</strong>&fld_id=<strong>15</strong>&public=<strong>1</strong>&created=<strong>2024-08-21%2005%3A07%3A10</strong>&name=<strong>My documents</strong></div></div>
+
+        <br>
+
+        <div class="table-responsive">
+          <table class="table table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">Parameters</th>
+                <th scope="col" style="width: 99%;" >Description</th>
+                <th scope="col">Example</th>
+                <th scope="col">Format</th>
+                <th scope="col">Required</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="thead-light">
+                <td class="">key</td>
+                <td>API-Key</td>
+                <td>1ltghrilhllgrx2b2</td>
+                <td>STRING</td>
+                <td>yes</td>
+              </tr>
+              <tr class="thead-light">
+                <td class="">page</td>
+                <td>page number</td>
+                <td>2</td>
+                <td>Number</td>
+                <td>no</td>
+              </tr>
+              <tr class="thead-light">
+                <td class="">per_page</td>
+                <td>Number of files per page</td>
+                <td>20</td>
+                <td>Number</td>
+                <td>no</td>
+              </tr>
+              <tr class="thead-light">
+                <td class="">fld_id</td>
+                <td>Folder id </td>
+                <td>15</td>
+                <td>Number</td>
+                <td>no</td>
+              </tr>
+              <tr class="thead-light">
+                <td class="">public</td>
+                <td>show public or private files</td>
+                <td>1 or 0</td>
+                <td>Number</td>
+                <td>no</td>
+              </tr>
+              <tr class="thead-light">
+                <td class="">created</td>
+                <td>Show only files uploaded after timestamp.</td>
+                <td>2024-08-21 05:07:10</td>
+                <td>String</td>
+                <td>no</td>
+              </tr>
+            </tbody>
+          </table></div>
+    
+
+        <h4 id="section1" class="mg-t-30">cURL example</h4>
+        <pre><code class="language-java  hljs">
+curl --include \
+'https://send.now/api/file/list?key=1l5ftrilhllgwx2bo&page=2&per_page=20&fld_id=15&public=1&created=2024-08-21%2005%3A07%3A10&name=My documents'
+          </code></pre>
+       
+
+        <h4 id="section1" class="mg-t-30">Response</h4>
+        <pre><code class="language-json hljs">
+          {
+            "status": 200,
+            "result": {
+              "files": [
+                {
+                  "thumbnail": null,
+                  "public": 1,
+                  "uploaded": "2024-05-29 11:35:51",
+                  "fld_id": 277577,
+                  "file_code": "ujeljf74r2nh",
+                  "size": 2734362,
+                  "name": "select2-4.1.0-rc.0.zip",
+                  "downloads": 0,
+                  "link": "https://send.now/ujeljf75r2nh"
+                },
+                {
+                  "uploaded": "2024-05-29 11:21:05",
+                  "public": 1,
+                  "thumbnail": null,
+                  "size": 2734362,
+                  "file_code": "1lb0bh98ejjm",
+                  "fld_id": 277177,
+                  "name": "select2-4.1.0-rc.0.zip",
+                  "link": "https://send.now/1lb0bh4hejjm",
+                  "downloads": 0
+                }
+              ],
+              "results": 2,
+              "results_total": 2
+            },
+            "msg": "OK",
+            "server_time": "2024-08-01 18:50:46"
+          }
+          </code></pre>
+       
+         
+
+          <h4 id="section9" class="mg-t-30">Status code</h4>
+          <p class="">
+            <table class="table table-borderless">
+              <tbody>
+<tr>
+  <td style="width: 1%;"><span class="badge badge-success tx-bold"><strong>200</strong></span></td>
+  <td class="">Everything is OK. Request succeeded</td>
+</tr>
+<tr>
+  <td><span class="badge badge-warning tx-bold"><strong>400</strong></span></td>
+  <td class=""> Bad request (e.g. wrong parameters)</td>
+</tr>
+<tr>
+  <td><span class="badge badge-danger tx-bold"><strong>403</strong></span></td>
+  <td class=""> Permission denied</td>
+</tr>
+<tr>
+  <td><span class="badge badge-secondary tx-bold"><strong>404</strong></span></td>
+  <td class=""> File not found  </td>
+</tr>
+<tr>
+  <td><span class="badge badge-dark tx-bold"><strong>451</strong></span></td>
+  <td class="">Unavailable
+
+  </td>
+</tr>
+
+              </tbody>
+            </table>
+        </p>
+
+           
+
+        <footer class="content-footer">
+          <div>
+            <span>&copy; <script type="3bb4083626a91bd53986d154-text/javascript">document.write(/\d{4}/.exec(Date())[0])</script> send.now v1 </span>
+           
+          </div>
+          <div>
+            <nav class="nav">
+              <a href="https://send.now/privacy" class="nav-link">Privacy</a>
+              <a href="https://send.now/terms" class="nav-link">Terms</a>
+              <a href="https://send.now/abuse" class="nav-link">Abuse</a>
+               <a href="https://send.now/contact" class="nav-link">Contact</a>
+            </nav>
+          </div>
+        </footer>
+
+      </div>
+    </div>
+
+ 
+        <script src="../../lib/bootstrap/js/bootstrap.bundle.min.js" type="3bb4083626a91bd53986d154-text/javascript"></script> 
+        <script src="../../lib/feather-icons/feather.min.js" type="3bb4083626a91bd53986d154-text/javascript"></script> 
+        <script src="../../assets/js/dashforge.js" type="3bb4083626a91bd53986d154-text/javascript"></script> 
+        <script src="../../lib/perfect-scrollbar/perfect-scrollbar.min.js" type="3bb4083626a91bd53986d154-text/javascript"></script>
+
+    <script type="3bb4083626a91bd53986d154-text/javascript">
+      $(function(){
+        'use strict'
+
+      });
+    </script>
+  <script src="../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="3bb4083626a91bd53986d154-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a41bfba538219eb4',t:'MTc5MDUyNzU3MA=='};var a=document.createElement('script');a.src='../../cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"ae163177bd1e45da92c83ca3115f22fa","spa":2}' crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from https://send.now/docs/api/file-list by HTTrack Website Copier/3.x [XR&CO], Sun, 27 Sep 2026 16:46:16 GMT -->
+</html>

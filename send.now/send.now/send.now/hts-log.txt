@@ -1,0 +1,13 @@
+HTTrack3.50-4 launched on Sun, 27 Sep 2026 18:46:05 at https://send.now/docs/api/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2%f#f -F "Mozilla/5.0 (compatible; HTTrack; +https://www.httrack.com/)" -%F "<!-- Mirrored from {url} by HTTrack Website Copier/3.x [XR&CO], {date} -->" -%l "fr, en, *" https://send.now/docs/api/ -O1 "C:\Mes Sites Web\send.now" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:46:17	Error: 	"Not Found" (404) at link https://send.now//static/css/Inter-UI.var.woff2 (from https://send.now//static/css/docs.css)
+
+HTTrack Website Copier/3.50-4 mirror complete in 12 seconds : 44 links scanned, 42 files written (1753644 bytes overall) [388818 bytes received at 32401 bytes/sec], 1764873 bytes transferred using HTTP compression in 43 files, ratio 19%, 22.5 requests per connection
+(1 errors, 0 warnings, 0 messages)
+(Some links above the start directory were not mirrored. Pass -B (--can-go-up-and-down) to mirror them.)
